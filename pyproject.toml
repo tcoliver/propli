@@ -15,7 +15,6 @@ attrs = "^23.1.0"
 [tool.poetry.scripts]
 propli = "propli.cli:app"
 
-
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"
 
