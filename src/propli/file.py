@@ -56,9 +56,6 @@ class File:
             dumped_data = self.type.value.dumps(data)
             if type(dumped_data) is bytes:
                 dumped_data = dumped_data.decode()
-            if self.type == FileType.json:
-                console.print_json(dumped_data)
-            else:
                 console.print(dumped_data)
         else:
             with self.path.open("wb") as f:
