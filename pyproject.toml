@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "propli"
-version = "0.0.1"
+version = "0.0.2"
 description = "Convert and view plist and yaml files"
 authors = ["Trenten Oliver <trenteno@wepay.com>"]
 readme = "README.md"
