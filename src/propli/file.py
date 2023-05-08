@@ -56,7 +56,7 @@ class File:
             dumped_data = self.type.value.dumps(data)
             if type(dumped_data) is bytes:
                 dumped_data = dumped_data.decode()
-                console.print(dumped_data)
+            console.print(dumped_data)
         else:
             with self.path.open("wb") as f:
                 self.type.value.dump(data, f)
